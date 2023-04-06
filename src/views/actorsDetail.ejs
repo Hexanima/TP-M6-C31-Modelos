@@ -14,7 +14,7 @@
     <h1><%= actor.first_name + " " + actor.last_name %> </h1>    
     <br>
     <p>RATING: <%= actor.rating %> </p>
-    <p>PELICULA FAVORITA: <%= movie.title %> </p>
+    <p>PELICULA FAVORITA: <a href="/movies/detail/<%= movie.id %>"><%= movie.title %></a></p>
 
 </body>
 </html>
